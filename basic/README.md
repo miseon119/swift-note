@@ -52,3 +52,10 @@ initializers (i.e. special functions that are called when creating a struct and 
 | "Free" init initializes ALL `var` | "Free" init initializes NO `var`|
 | Mutability must be explicity stated | Always mutable |
 
+### Array
+
+```swift
+var a = Array<Int>()
+a.append(5)
+a.append(22)
+```
