@@ -59,3 +59,21 @@ var a = Array<Int>()
 a.append(5)
 a.append(22)
 ```
+
+### Class
+
+`private` var:
+```swift
+class EmojiMemoryGame {
+    private var model: MemoryGame<String>
+}
+```
+other class can NOT read and write this `var`
+
+`private(set)` var:
+```swift
+class EmojiMemoryGame {
+    private(set) var model: MemoryGame<String>
+}
+```
+can read this `var` but can not write(change) it.
