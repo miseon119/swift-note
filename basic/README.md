@@ -77,3 +77,12 @@ class EmojiMemoryGame {
 }
 ```
 can read this `var` but can not write(change) it.
+
+static variable:
+```swift
+class EmojiMemoryGame {
+    static let emojis = ["🥝", "🍉", "🥑", "🎅", "😂", "🎄", "🎁", "😁", "😘", "💣" ,"🤖", "💀",
+    "🤓", "😅", "🤙", "🦷", "👣", "🧚‍♂️", "🧜‍♂️", "🧜‍♀️", "🧞‍♂️","🧞‍♀️"]
+
+}
+```
