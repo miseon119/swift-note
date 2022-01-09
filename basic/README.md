@@ -125,4 +125,19 @@ enum FastFood {
 }
 ```
 
+Setting the value of an enum:
+```swift
+let menuItem: FastFood = FastFood.hamburger(2)
+var menuItem: FastFood = FastFood.drink
+```
+
+Checking an enum's state:
+```swift
+var menuItem: FastFood = FastFood.hamburger(patties: 2)
+switch menuItem {
+    case FastFood.hamburger: print("it is hamburger")
+    case FastFood.fries: print("fries")
+}
+```
+
 
