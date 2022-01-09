@@ -116,3 +116,13 @@ enum FastFood {
 }
 ```
 An enum is a value type(like struct), so it is copied as it is passed around. 
+
+```swift
+enum FastFood {
+    case hamburger(numberOfPatties: Int)
+    case fries(size: FryOrderSize)
+    case drink(String: ounces: Int)
+}
+```
+
+
