@@ -105,3 +105,14 @@ class EmojiMemoryGame {
     }
 }
 ```
+
+### Enum
+
+```swift
+enum FastFood {
+    case hamburger
+    case fries
+    case drink
+}
+```
+An enum is a value type(like struct), so it is copied as it is passed around. 
